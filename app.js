@@ -17,4 +17,3 @@ function agregarAmigo(){
     console.log("Lista de amigos:", ListaAmigos);
         
 }
-agregarAmigo();

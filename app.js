@@ -40,3 +40,22 @@ let listaElement = document.getElementById("lista-amigos");
         listaElement.appendChild(listItem); // Agregar el <li> a la lista
     }
 }
+function sortearAmigo() {
+    // Verificar si hay amigos en la lista
+    if (ListaAmigos.length === 0) {
+        alert("No hay amigos en la lista para sortear.");
+        return;
+    }
+
+    // Generar un índice aleatorio
+    let indiceAleatorio = Math.floor(Math.random() * ListaAmigos.length);
+
+    // Obtener el nombre sorteado
+    let amigoSorteado = ListaAmigos[indiceAleatorio];
+
+    // Mostrar el resultado en el DOM
+    document.getElementById("resultado").innerHTML = 
+        `🎉 Amigo sorteado: <strong>${amigoSorteado}</strong> 🎉`;
+}
+
+sortearAmigo();

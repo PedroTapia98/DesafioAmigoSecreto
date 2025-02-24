@@ -17,7 +17,7 @@ Forma parte del curso de **Programación en ALURA** dentro del programa **ONE (O
 ## 🚀 Tecnologías Utilizadas
 - **HTML5**
 - **CSS3**
-- **JavaScript (ES6+)**
+- **JavaScript**
 - **Markdown** (para documentación)
 
 ## 📂 Estructura del Proyecto
